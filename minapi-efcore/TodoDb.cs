@@ -8,5 +8,6 @@ namespace minapi_efcore
             : base(options) { }
 
         public DbSet<Todo> Todos => Set<Todo>();
+        public DbSet<User> Users => Set<User>();
     }
 }
